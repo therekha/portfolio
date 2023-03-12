@@ -1,5 +1,5 @@
 <template>
-  <img alt="Vue logo" src="./assets/construction.png">
+  <img alt="construction logo" src="./assets/construction.png">
   <HelloWorld msg="Under Construction!"/>
 </template>
 
