@@ -1,0 +1,15 @@
+:root{
+    --rosepink: #f3beb9;
+    --inkblue: #222337;
+    --oldyellow: #F4D095;
+    --dustgreen: #727A67;
+
+    background-color: var(--inkblue);
+    color: var(--rosepink);
+}
+a:link, a:visited{
+    color: var(--rosepink)
+}
+a:hover, a:active{
+    color: var(--dustgreen)
+}

@@ -1,6 +1,7 @@
 <template>
-  <img alt="construction logo" src="./assets/construction.png">
-  <HelloWorld msg="Under Construction!"/>
+  <HelloWorld 
+  class="center"
+  />
 </template>
 
 <script>
@@ -15,12 +16,28 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  min-height: 98vh;
+  font-family: 'Space Grotesk', Michroma, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+  opacity: 1;
+  background-image: radial-gradient(var(--rosepink) 0.45px, var(--inkblue) 0.45px);
+  background-size: 9px 9px;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
+.center{
+  background-color: var(--inkblue);
+  padding: 5vh 10vh;
+  border-style: solid;
+  border-color: var(--oldyellow);
+}
+
 </style>
